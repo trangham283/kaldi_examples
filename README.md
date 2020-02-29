@@ -16,7 +16,7 @@
   * Copy `cmd.sh` and `path.sh` to this directory; this should be the same in any `kaldi/egs` recipes
   * Example audio files are in `sample_data`; the audio has to be in .wav formatand mono-channel. For an example of how to do this, see `convert_trim.sh`
 
-# Feature Extraction
+## Feature Extraction
 TBD
 
 
