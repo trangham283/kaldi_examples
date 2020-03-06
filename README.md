@@ -1,4 +1,6 @@
 # kaldi_examples
+Sample codes and data to follow up on TIAL group meeting on 2/25.
+WIP
 
 ## References
 * [Official docs](http://kaldi-asr.org/doc/)
@@ -17,14 +19,17 @@
   * Example audio files are in `sample_data`; the audio has to be in .wav formatand mono-channel. For an example of how to do this, see `convert_trim.sh`
 
 ## Feature Extraction
-TBD
+  * Make sure the configurations are correct in `/conf`. For example:
+    * I changed `fbank.conf` to also extract total energy by setting `use-energy=true`
+    * I changed `mfcc.conf` to ; according to the ASpiRE-related models, this gave better results in speech recognition
+  * `comp_all.sh` has the sample script to extract fbank, mfcc, and pitch features. Comment out parts you don't need
 
 
 ## Decoding Using a Pretrained Model
   * Download a model from [kaldi models](http://kaldi-asr.org/models.html). For this example, I'm using the [ASpIRE chain model](http://kaldi-asr.org/models/m1), version with the precompiled HCLG
   * Untar it: `tar xvf 0001_aspire_chain_model_with_hclg.tar.bz2`
   * To this recipe, copy `cmd.sh` and `path.sh` if you haven't done so
-  * Link common modules we'll be using (or copy all these here if you'll be editing the code):
+  * Link common modules we'll be using (or copy all these here if you'll be editing the scripts in these directory):
     ```
     ln -s $KALDI_ROOT/egs/aspire/s5/steps .
     ln -s $KALDI_ROOT/egs/aspire/s5/utils .
