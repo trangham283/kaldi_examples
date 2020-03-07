@@ -16,4 +16,4 @@ This got put on bird030
 
 ## Output
 * on: /g/ssli/data/CTS-English/swbd_align/acoustic_features_json
-* full swbd data done in ~4 hours, on 8 CPUs (bird030)
+* full swbd data done (all steps above) in ~6 hours total, on 8 CPUs (bird030); mfcc and fbank features take longer than pitch
