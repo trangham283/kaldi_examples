@@ -12,7 +12,7 @@ migrate --max-mem 16000 --max-cpu 8 --no-desktop "./comp_fbank.sh"
 This got put on bird030
 
 * Post-process: `run_postprocess.sh`
-* tar it
+* tar it: e.g. `tar -czvf pitch_json.tar.gz /s0/ttmt001/swbd_features/pitch/json`
 
 ## Output
 * on: /g/ssli/data/CTS-English/swbd_align/acoustic_features_json
