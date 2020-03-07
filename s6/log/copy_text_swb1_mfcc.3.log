@@ -1,0 +1,7 @@
+# /homes/ttmt001/kaldi/src/featbin/copy-feats ark:/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.ark ark,t:/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.txt 
+# Started at Fri Mar  6 17:55:34 PST 2020
+#
+/homes/ttmt001/kaldi/src/featbin/copy-feats ark:/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.ark ark,t:/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.txt 
+LOG (copy-feats[5.0.54~49-dc45]:main():copy-feats.cc:120) Copied 610 feature matrices.
+# Accounting: time=1249 threads=1
+# Ended (code 0) at Fri Mar  6 18:16:24 PST 2020, elapsed time 1249 seconds

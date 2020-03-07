@@ -1,0 +1,23 @@
+# /homes/ttmt001/kaldi/src/featbin/compute-kaldi-pitch-feats --verbose=2 --config=conf/pitch.conf scp,p:./log/wav_swb1.5.scp ark:- | /homes/ttmt001/kaldi/src/featbin/process-kaldi-pitch-feats ark:- ark:- | /homes/ttmt001/kaldi/src/featbin/copy-feats --compress=true ark:- ark,scp:/s0/ttmt001/swbd_features/pitch/raw_pitch_swb1.5.ark,/s0/ttmt001/swbd_features/pitch/raw_pitch_swb1.5.scp 
+# Started at Fri Mar  6 17:03:49 PST 2020
+#
+/homes/ttmt001/kaldi/src/featbin/process-kaldi-pitch-feats ark:- ark:- 
+/homes/ttmt001/kaldi/src/featbin/copy-feats --compress=true ark:- ark,scp:/s0/ttmt001/swbd_features/pitch/raw_pitch_swb1.5.ark,/s0/ttmt001/swbd_features/pitch/raw_pitch_swb1.5.scp 
+/homes/ttmt001/kaldi/src/featbin/compute-kaldi-pitch-feats --verbose=2 --config=conf/pitch.conf scp,p:./log/wav_swb1.5.scp ark:- 
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 50 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 100 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 150 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 200 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 250 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 300 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 350 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 400 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 450 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 500 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 550 utterances
+VLOG[2] (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:108) Processed 600 utterances
+LOG (compute-kaldi-pitch-feats[5.0.54~49-dc45]:main():compute-kaldi-pitch-feats.cc:111) Done 609 utterances, 0 with errors.
+LOG (process-kaldi-pitch-feats[5.0.54~49-dc45]:main():process-kaldi-pitch-feats.cc:85) Post-processed pitch for 609 utterances.
+LOG (copy-feats[5.0.54~49-dc45]:main():copy-feats.cc:120) Copied 609 feature matrices.
+# Accounting: time=2052 threads=1
+# Ended (code 0) at Fri Mar  6 17:38:02 PST 2020, elapsed time 2052 seconds

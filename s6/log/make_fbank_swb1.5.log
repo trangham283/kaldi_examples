@@ -1,0 +1,678 @@
+# /homes/ttmt001/kaldi/src/featbin/compute-fbank-feats --verbose=2 --config=conf/fbank.conf scp,p:./log/wav_swb1.5.scp ark:- | /homes/ttmt001/kaldi/src/featbin/copy-feats --compress=true ark:- ark,scp:/s0/ttmt001/swbd_features/fbank/raw_fbank_swb1.5.ark,/s0/ttmt001/swbd_features/fbank/raw_fbank_swb1.5.scp 
+# Started at Fri Mar  6 17:29:09 PST 2020
+#
+/homes/ttmt001/kaldi/src/featbin/copy-feats --compress=true ark:- ark,scp:/s0/ttmt001/swbd_features/fbank/raw_fbank_swb1.5.ark,/s0/ttmt001/swbd_features/fbank/raw_fbank_swb1.5.scp 
+/homes/ttmt001/kaldi/src/featbin/compute-fbank-feats --verbose=2 --config=conf/fbank.conf scp,p:./log/wav_swb1.5.scp ark:- 
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03358-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03358-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03359-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03359-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03360-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03360-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03361-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03361-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03362-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 10 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03362-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03363-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03363-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03364-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03364-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03365-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03365-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03366-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03366-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03367-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 20 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03367-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03368-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03368-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03369-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03369-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03370-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03370-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03371-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03371-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03372-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 30 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03372-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03373-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03373-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03374-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03374-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03375-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03375-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03376-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03376-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03377-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 40 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03377-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03378-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03378-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03379-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03379-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03380-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03380-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03381-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03381-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03382-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 50 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03382-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03383-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03383-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03384-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03384-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03385-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03385-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03386-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03386-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03387-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 60 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03387-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03388-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03388-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03389-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03389-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03390-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03390-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03391-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03391-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03392-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 70 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03392-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03393-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03393-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03394-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03394-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03395-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03395-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03396-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03396-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03397-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 80 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03397-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03398-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03398-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03399-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03399-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03400-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03400-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03401-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03401-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03402-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 90 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03402-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03403-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03403-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03404-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03404-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03405-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03405-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03406-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03406-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03407-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 100 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03407-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03408-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03408-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03409-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03409-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03410-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03410-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03411-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03411-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03412-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 110 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03412-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03413-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03413-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03414-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03414-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03415-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03415-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03416-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03416-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03417-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 120 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03417-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03418-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03418-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03419-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03419-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03420-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03420-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03421-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03421-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03422-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 130 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03422-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03423-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03423-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03424-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03424-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03425-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03425-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03426-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03426-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03427-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 140 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03427-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03428-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03428-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03429-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03429-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03430-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03430-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03431-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03431-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03432-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 150 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03432-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03433-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03433-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03434-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03434-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03435-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03435-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03436-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03436-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03437-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 160 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03437-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03438-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03438-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03439-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03439-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03440-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03440-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03441-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03441-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03442-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 170 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03442-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03443-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03443-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03444-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03444-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03445-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03445-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03446-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03446-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03447-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 180 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03447-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03448-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03448-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03449-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03449-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03450-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03450-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03451-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03451-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03452-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 190 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03452-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03453-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03453-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03454-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03454-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03455-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03455-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03456-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03456-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03457-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 200 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03457-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03458-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03458-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03459-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03459-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03460-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03460-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03461-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03461-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03462-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 210 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03462-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03463-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03463-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03464-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03464-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03465-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03465-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03466-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03466-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03467-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 220 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03467-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03468-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03468-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03469-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03469-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03470-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03470-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03471-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03471-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03472-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 230 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03472-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03473-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03473-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03474-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03474-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03475-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03475-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03476-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03476-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03477-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 240 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03477-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03478-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03478-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03479-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03479-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03480-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03480-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03481-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03481-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03482-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 250 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03482-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03483-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03483-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03484-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03484-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03485-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03485-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03486-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03486-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03487-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 260 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03487-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03488-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03488-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03489-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03489-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03490-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03490-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03491-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03491-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03492-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 270 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03492-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03493-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03493-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03494-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03494-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03495-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03495-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03496-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03496-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03497-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 280 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03497-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03498-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03498-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03499-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03499-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03500-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03500-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03501-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03501-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03502-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 290 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03502-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03503-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03503-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03504-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03504-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03505-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03505-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03506-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03506-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03507-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 300 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03507-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03508-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03508-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03509-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03509-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03510-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03510-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03511-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03511-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03512-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 310 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03512-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03513-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03513-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03514-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03514-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03515-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03515-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03516-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03516-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03517-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 320 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03517-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03518-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03518-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03519-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03519-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03520-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03520-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03521-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03521-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03522-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 330 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03522-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03523-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03523-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03524-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03524-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03525-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03525-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03526-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03526-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03527-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 340 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03527-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03528-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03528-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03529-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03529-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03530-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03530-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03531-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03531-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03532-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 350 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03532-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03533-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03533-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03534-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03534-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03535-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03535-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03536-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03536-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03537-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 360 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03537-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03538-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03538-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03539-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03539-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03540-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03540-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03541-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03541-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03542-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 370 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03542-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03543-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03543-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03544-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03544-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03545-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03545-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03546-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03546-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03547-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 380 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03547-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03548-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03548-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03549-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03549-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03550-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03550-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03551-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03551-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03552-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 390 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03552-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03553-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03553-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03554-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03554-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03555-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03555-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03556-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03556-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03557-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 400 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03557-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03558-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03558-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03559-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03559-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03560-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03560-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03561-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03561-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03562-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 410 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03562-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03563-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03563-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03564-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03564-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03565-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03565-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03566-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03566-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03567-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 420 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03567-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03568-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03568-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03569-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03569-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03570-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03570-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03571-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03571-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03572-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 430 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03572-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03573-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03573-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03574-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03574-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03575-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03575-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03576-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03576-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03577-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 440 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03577-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03578-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03578-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03579-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03579-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03580-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03580-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03581-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03581-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03582-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 450 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03582-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03583-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03583-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03584-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03584-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03585-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03585-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03586-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03586-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03587-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 460 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03587-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03588-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03588-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03589-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03589-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03590-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03590-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03591-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03591-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03592-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 470 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03592-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03593-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03593-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03594-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03594-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03595-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03595-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03596-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03596-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03597-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 480 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03597-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03598-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03598-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03599-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03599-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03600-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03600-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03601-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03601-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03602-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 490 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03602-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03603-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03603-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03604-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03604-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03605-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03605-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03606-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03606-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03607-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 500 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03607-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03608-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03608-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03609-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03609-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03610-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03610-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03611-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03611-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03612-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 510 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03612-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03614-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03614-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03615-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03615-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03616-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03616-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03617-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03617-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03618-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 520 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03618-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03619-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03619-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03620-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03620-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03621-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03621-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03622-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03622-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03623-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 530 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03623-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03624-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03624-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03625-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03625-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03626-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03626-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03627-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03627-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03628-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 540 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03628-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03629-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03629-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03630-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03630-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03631-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03631-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03632-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03632-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03633-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 550 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03633-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03634-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03634-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03635-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03635-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03636-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03636-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03637-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03637-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03638-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 560 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03638-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03639-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03639-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03640-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03640-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03641-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03641-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03642-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03642-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03643-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 570 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03643-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03644-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03644-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03645-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03645-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03646-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03646-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03647-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03647-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03648-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 580 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03648-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03649-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03649-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03650-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03650-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03651-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03651-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03652-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03652-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03653-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 590 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03653-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03654-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03654-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03655-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03655-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03656-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03656-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03657-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03657-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03658-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:174) Processed 600 utterances
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03658-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03659-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03659-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03660-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03660-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03661-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03661-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03662-A
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03662-B
+VLOG[2] (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:175) Processed features for key sw03663-A
+LOG (compute-fbank-feats[5.0.54~49-dc45]:main():compute-fbank-feats.cc:178)  Done 609 out of 609 utterances.
+LOG (copy-feats[5.0.54~49-dc45]:main():copy-feats.cc:120) Copied 609 feature matrices.
+# Accounting: time=1065 threads=1
+# Ended (code 0) at Fri Mar  6 17:46:55 PST 2020, elapsed time 1065 seconds

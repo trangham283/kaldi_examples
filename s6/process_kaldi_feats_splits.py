@@ -28,7 +28,7 @@ def process_feats(args):
         exit(0)
 
     for i in range(1, nsplit+1):
-        raw_file = os.path.join(raw_dir,'raw_{}_sph.{}.txt'.format(feattype, i))
+        raw_file = os.path.join(raw_dir,'raw_{}_swb1.{}.txt'.format(feattype,i))
         raw_lines = open(raw_file).readlines()
         sindices = [i for i,x in enumerate(raw_lines) if 'sw' in x]
         eindices = sindices[1:] + [len(raw_lines)]

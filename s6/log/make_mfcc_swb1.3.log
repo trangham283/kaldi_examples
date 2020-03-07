@@ -1,0 +1,680 @@
+# /homes/ttmt001/kaldi/src/featbin/compute-mfcc-feats --verbose=2 --config=conf/mfcc_hires.conf scp,p:./log/wav_swb1.3.scp ark:- | /homes/ttmt001/kaldi/src/featbin/copy-feats --compress=true ark:- ark,scp:/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.ark,/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.scp 
+# Started at Fri Mar  6 17:27:09 PST 2020
+#
+/homes/ttmt001/kaldi/src/featbin/copy-feats --compress=true ark:- ark,scp:/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.ark,/s0/ttmt001/swbd_features/mfcc/raw_mfcc_swb1.3.scp 
+/homes/ttmt001/kaldi/src/featbin/compute-mfcc-feats --verbose=2 --config=conf/mfcc_hires.conf scp,p:./log/wav_swb1.3.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02720-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02720-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02721-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02721-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02722-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02722-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02723-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02723-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02724-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02724-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02725-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02725-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02726-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02726-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02727-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02727-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02728-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02728-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02729-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02729-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02730-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02730-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02731-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02731-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02732-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02732-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02733-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02733-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02734-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02734-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02735-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02735-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02736-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02736-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02737-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02737-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02738-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02738-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02739-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02739-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02740-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02740-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02741-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02741-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02742-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02742-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02743-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02743-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02744-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02744-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02746-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02746-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02747-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02747-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02748-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02748-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02749-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02749-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02750-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02750-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02751-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02751-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02752-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02752-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02753-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02753-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02754-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02754-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02755-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02755-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02756-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02756-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02757-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02757-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02758-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02758-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02759-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02759-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02760-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02760-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02761-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02761-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02762-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02762-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02763-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02763-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02764-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02764-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02765-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02765-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02766-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02766-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02767-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02767-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02768-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02768-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02769-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02769-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02770-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02770-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02771-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02771-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02772-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02772-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02773-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02773-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02774-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02774-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02775-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02775-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02776-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02776-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02777-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02777-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02778-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02778-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02779-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02779-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02780-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02780-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02781-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02781-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02782-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02782-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02783-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02783-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02784-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02784-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02785-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02785-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02786-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02786-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02787-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02787-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02788-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02788-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02789-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02789-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02790-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02790-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02791-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02791-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02792-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02792-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02793-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02793-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02794-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02794-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02795-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02795-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02796-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02796-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02797-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02797-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02798-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02798-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02799-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02799-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02800-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02800-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02801-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02801-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02802-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02802-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02803-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02803-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02804-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02804-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02805-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 170 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02805-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02806-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02806-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02807-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02807-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02808-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02808-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02809-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02809-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02810-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 180 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02810-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02811-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02811-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02812-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02812-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02813-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02813-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02814-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02814-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02815-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 190 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02815-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02816-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02816-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02817-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02817-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02818-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02818-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02819-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02819-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02820-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 200 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02820-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02821-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02821-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02822-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02822-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02823-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02823-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02824-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02824-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02825-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 210 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02825-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02826-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02826-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02827-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02827-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02828-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02828-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02829-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02829-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02830-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 220 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02830-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02831-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02831-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02832-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02832-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02833-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02833-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02834-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02834-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02835-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 230 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02835-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02836-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02836-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02837-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02837-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02838-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02838-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02839-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02839-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02840-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 240 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02840-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02841-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02841-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02842-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02842-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02843-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02843-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02844-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02844-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02845-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 250 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02845-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02846-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02846-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02847-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02847-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02848-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02848-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02849-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02849-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02850-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 260 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02850-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02851-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02851-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02852-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02852-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02853-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02853-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02854-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02854-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02855-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 270 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02855-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02856-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02856-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02858-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02858-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02859-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02859-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02860-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02860-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02861-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 280 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02861-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02862-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02862-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02863-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02863-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02864-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02864-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02865-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02865-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02866-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 290 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02866-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02867-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02867-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02868-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02868-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02869-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02869-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02870-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02870-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02871-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 300 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02871-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02872-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02872-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02873-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02873-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02874-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02874-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02875-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02875-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02876-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 310 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02876-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02877-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02877-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02878-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02878-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02879-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02879-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02882-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02882-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02883-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 320 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02883-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02884-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02884-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02885-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02885-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02886-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02886-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02887-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02887-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02888-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 330 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02888-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02889-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02889-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02890-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02890-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02891-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02891-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02892-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02892-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02893-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 340 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02893-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02894-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02894-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02895-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02895-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02896-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02896-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02897-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02897-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02898-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 350 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02898-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02899-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02899-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02900-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02900-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02901-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02901-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02909-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02909-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02910-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 360 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02910-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02911-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02911-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02912-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02912-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02913-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02913-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02914-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02914-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02915-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 370 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02915-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02916-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02916-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02917-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02917-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02918-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02918-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02919-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02919-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02920-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 380 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02920-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02921-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02921-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02922-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02922-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02923-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02923-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02924-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02924-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02925-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 390 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02925-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02926-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02926-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02927-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02927-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02928-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02928-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02929-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02929-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02930-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 400 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02930-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02931-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02931-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02932-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02932-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02933-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02933-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02934-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02934-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02935-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 410 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02935-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02936-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02936-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02937-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02937-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02938-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02938-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02939-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02939-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02940-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 420 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02940-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02941-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02941-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02942-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02942-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02943-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02943-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02944-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02944-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02945-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 430 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02945-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02950-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02950-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02951-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02951-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02952-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02952-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02953-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02953-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02954-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 440 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02954-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02955-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02955-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02956-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02956-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02957-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02957-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02958-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02958-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02959-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 450 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02959-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02960-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02960-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02961-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02961-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02962-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02962-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02963-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02963-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02964-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 460 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02964-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02965-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02965-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02966-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02966-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02967-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02967-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02968-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02968-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02969-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 470 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02969-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02970-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02970-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02973-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02973-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02978-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02978-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02979-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02979-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02980-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 480 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02980-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02981-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02981-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02982-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02982-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02983-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02983-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02984-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02984-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02985-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 490 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02985-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02986-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02986-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02987-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02987-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02988-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02988-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02989-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02989-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02990-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 500 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02990-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02991-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02991-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02992-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02992-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02993-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02993-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02994-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02994-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02995-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 510 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02995-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02996-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02996-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02997-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02997-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02998-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02998-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02999-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw02999-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03000-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 520 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03000-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03001-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03001-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03002-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03002-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03003-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03003-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03004-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03004-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03005-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 530 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03005-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03006-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03006-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03007-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03007-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03008-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03008-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03009-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03009-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03010-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 540 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03010-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03011-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03011-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03012-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03012-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03013-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03013-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03014-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03014-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03015-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 550 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03015-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03016-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03016-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03017-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03017-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03018-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03018-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03019-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03019-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03020-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 560 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03020-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03021-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03021-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03022-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03022-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03023-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03023-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03024-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03024-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03025-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 570 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03025-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03026-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03026-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03027-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03027-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03028-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03028-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03029-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03029-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03030-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 580 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03030-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03031-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03031-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03032-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03032-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03033-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03033-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03034-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03034-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03035-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 590 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03035-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03036-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03036-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03037-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03037-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03038-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03038-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03039-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03039-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03040-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 600 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03040-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03041-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03041-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03042-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03042-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03043-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03043-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03044-A
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03044-B
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03045-A
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:177) Processed 610 utterances
+VLOG[2] (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:178) Processed features for key sw03045-B
+LOG (compute-mfcc-feats[5.0.54~49-dc45]:main():compute-mfcc-feats.cc:181)  Done 610 out of 610 utterances.
+LOG (copy-feats[5.0.54~49-dc45]:main():copy-feats.cc:120) Copied 610 feature matrices.
+# Accounting: time=1622 threads=1
+# Ended (code 0) at Fri Mar  6 17:54:12 PST 2020, elapsed time 1622 seconds
