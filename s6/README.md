@@ -1,4 +1,4 @@
-## s6 recipe
+# s6 recipe
 Backup/copy of local $HOME/kaldi/egs/swbd/s6
 
 ## Steps
