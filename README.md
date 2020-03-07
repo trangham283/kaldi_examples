@@ -20,9 +20,9 @@ WIP
 
 ## Feature Extraction
   * Make sure the configurations are correct in `/conf`. For example:
-    * I changed `fbank.conf` to also extract total energy by setting `use-energy=true`
-    * I changed `mfcc.conf` to ; according to the ASpiRE-related models, this gave better results in speech recognition
-  * `comp_all.sh` has the sample script to extract fbank, mfcc, and pitch features. Comment out parts you don't need
+    * I changed `fbank.conf` to also extract total energy by setting `--use-energy=true`
+    * I used `mfcc_hires.conf` instead of the default `mfcc.conf`; according to the ASpiRE-related models, this gave better results in speech recognition
+  * `comp_mfcc.sh`, `comp_fbank_energy.sh`, and `comp_pitch.sh` are sample scripts to extract mfcc, fbank, and pitch features. Note that the split channel part is repeated, comment this out if you've already done this. 
 
 
 ## Decoding Using a Pretrained Model

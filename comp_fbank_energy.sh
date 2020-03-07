@@ -1,14 +1,24 @@
 #!/bin/bash
 
 # Based on run.sh and local/eval2000_data_prep.sh
-maindir=/tmp/ttran/Datasets/audio_swbd
-sdir=$maindir/sph
+maindir=.
+feat=fbank
+datadir=$maindir/sample_data/sph
+logdir=$maindir/log
+swdir=$HOME/kaldi/src/featbin
+fbankdir=$maindir/fbank
+logdir=$maindir/log
+
+nj=2
+cmd=utils/run.pl
+fbank_config=conf/fbank.conf
+compress=true
 
 # make list of files to process
 find $sdir -iname '*.sph' | sort > sph.flist
 sed -e 's?.*/??' -e 's?.sph??' sph.flist | paste - sph.flist > sph.scp
 
-sph2pipe=$HOME/sw/kaldi/tools/sph2pipe_v2.5/sph2pipe
+sph2pipe=$HOME/kaldi/tools/sph2pipe_v2.5/sph2pipe
 [ ! -x $sph2pipe ] \
   && echo "Could not execute the sph2pipe program at $sph2pipe" && exit 1;
 
@@ -23,21 +33,8 @@ awk '{print $1}' wav.scp \
                print "$1-$2 $1 $2\n"; ' \
   > reco2file_and_channel || exit 1;
 
-fbankdir=$maindir/fbank
-nj=8
-cmd=utils/run.pl
-mfcc_config=conf/mfcc.conf
-pitch_config=conf/pitch.conf
-fbank_config=conf/fbank.conf
-compress=true
-
-data=$sdir
-logdir=$maindir/logfbank
-
 # use "name" as part of name of the archive.
-name=`basename $data`
-
-swdir=/home-nfs/ttran/sw/kaldi/src/featbin
+name=`basename $datadir`
 
 mkdir -p $fbankdir || exit 1;
 mkdir -p $logdir || exit 1;
@@ -67,9 +64,8 @@ done
 utils/split_scp.pl $scp $split_scps || exit 1;
 
 
-# You have to use the ",t" modifier on the output, for instance
+# Use the ",t" modifier on the output to convert to .txt file
 # copy-feats scp:feats.scp ark,t:-
-
 ## compute fbank (+energy) here
 $cmd JOB=1:$nj $logdir/make_fbank_${name}.JOB.log \
 $swdir/compute-fbank-feats --verbose=2 --config=$fbank_config \
@@ -78,7 +74,7 @@ $swdir/copy-feats --compress=$compress ark:- \
 ark,scp:$fbankdir/raw_fbank_$name.JOB.ark,$fbankdir/raw_fbank_$name.JOB.scp \
 || exit 1;
 
-$cmd JOB=1:$nj $logdir/copy_text_${name}.JOB.log \
+$cmd JOB=1:$nj $logdir/copy_text_${name}_${feat}.JOB.log \
 $swdir/copy-feats ark:$fbankdir/raw_fbank_$name.JOB.ark ark,t:$fbankdir/raw_fbank_$name.JOB.txt \
 || exit 1;
 

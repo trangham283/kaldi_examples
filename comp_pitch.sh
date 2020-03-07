@@ -1,17 +1,23 @@
 #!/bin/bash
 
 # Based on run.sh and local/eval2000_data_prep.sh
-maindir=/scratch/ttran/Datasets/audio_swbd
-sdir=$maindir/sph
+maindir=.
+feat=pitch
+datadir=$maindir/sample_data/sph
+pitchdir=$maindir/pitch
+logdir=$maindir/log
+swdir=$HOME/kaldi/src/featbin
 
-#maindir=/scratch/ttran/Datasets/audio_debug
-#sdir=/scratch/ttran/Datasets/audio_debug
+nj=2
+cmd=utils/run.pl
+pitch_config=conf/pitch.conf
+compress=true
 
 # make list of files to process
 find $sdir -iname '*.sph' | sort > sph.flist
 sed -e 's?.*/??' -e 's?.sph??' sph.flist | paste - sph.flist > sph.scp
 
-sph2pipe=$HOME/sw/kaldi/tools/sph2pipe_v2.5/sph2pipe
+sph2pipe=$HOME/kaldi/tools/sph2pipe_v2.5/sph2pipe
 [ ! -x $sph2pipe ] \
   && echo "Could not execute the sph2pipe program at $sph2pipe" && exit 1;
 
@@ -26,23 +32,8 @@ awk '{print $1}' wav.scp \
                print "$1-$2 $1 $2\n"; ' \
   > reco2file_and_channel || exit 1;
 
-mfccdir=$maindir/mfcc
-pitchdir=$maindir/pitch_pov
-fbankdir=$maindir/fbank
-nj=8
-cmd=utils/run.pl
-mfcc_config=conf/mfcc.conf
-pitch_config=conf/pitch.conf
-fbank_config=conf/fbank.conf
-compress=true
-
-data=$sdir
-logdir=$maindir/log_pitch_pov
-
 # use "name" as part of name of the archive.
-name=`basename $data`
-
-swdir=/home-nfs/ttran/sw/kaldi/src/featbin
+name=`basename $datadir`
 
 mkdir -p $pitchdir || exit 1;
 mkdir -p $logdir || exit 1;
@@ -72,11 +63,11 @@ done
 utils/split_scp.pl $scp $split_scps || exit 1;
 
 
-# You have to use the ",t" modifier on the output, for instance
+# Use the ",t" modifier on the output to convert to .txt file
 # copy-feats scp:feats.scp ark,t:-
 
 ## compute pitch feats here
-$cmd JOB=1:$nj $logdir/make_pitch_${name}.JOB.log \
+$cmd JOB=1:$nj $logdir/make_pitch_${name}_${feat}.JOB.log \
 $swdir/compute-kaldi-pitch-feats --verbose=2 --config=$pitch_config \
 scp,p:$logdir/wav_${name}.JOB.scp ark:- \| \
 $swdir/process-kaldi-pitch-feats ark:- ark:- \| \
