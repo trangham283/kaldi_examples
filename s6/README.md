@@ -15,4 +15,5 @@ This got put on bird030
 * tar it
 
 ## Output
-on: /g/ssli/data/CTS-English/swbd_align/acoustic_features_json
+* on: /g/ssli/data/CTS-English/swbd_align/acoustic_features_json
+* full swbd data done in ~4 hours, on 8 CPUs (bird030)
