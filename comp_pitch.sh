@@ -14,7 +14,7 @@ pitch_config=conf/pitch.conf
 compress=true
 
 # make list of files to process
-find $sdir -iname '*.sph' | sort > sph.flist
+find $datadir -iname '*.sph' | sort > sph.flist
 sed -e 's?.*/??' -e 's?.sph??' sph.flist | paste - sph.flist > sph.scp
 
 sph2pipe=$HOME/kaldi/tools/sph2pipe_v2.5/sph2pipe

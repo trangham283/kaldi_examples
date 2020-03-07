@@ -16,7 +16,6 @@ compress=true
 # use "name" as part of name of the archive.
 name=`basename $datadir`
 
-
 # make list of files to process
 find $datadir -iname '*.sph' | sort > sph.flist
 sed -e 's?.*/??' -e 's?.sph??' sph.flist | paste - sph.flist > sph.scp
