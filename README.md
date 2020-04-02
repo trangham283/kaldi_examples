@@ -11,6 +11,8 @@ WIP
   * http://www.programmersought.com/tag/kaldi/ 
   * [Using a pretrained model](https://medium.com/@nithinraok_/decoding-an-audio-file-using-a-pre-trained-model-with-kaldi-c1d7d2fe3dc5)
   * [Using and extending the ASpIRE model](https://chrisearch.wordpress.com/2017/03/11/speech-recognition-using-kaldi-extending-and-using-the-aspire-model/)
+  * [Desh Raj's blog posts](https://desh2608.github.io/2019-05-21-chain/)
+  * [ASR lecture notes from University of Edinburgh](http://www.inf.ed.ac.uk/teaching/courses/asr/lectures-2020.html)
 
 ## Common Setup/Quick Start
   * Install Kaldi
@@ -26,6 +28,10 @@ WIP
 
 
 ## Decoding Using a Pretrained Model
+For my purposes (conversational speech, Switchboard), I'm using the [chain model](http://kaldi-asr.org/doc/chain.html) trained on Fisher data. The paper that this model is based on is [this one](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf), and [this blog post](https://desh2608.github.io/2019-05-21-chain/) has some nice and detailed derivations. 
+
+Steps:
+
   * Download a model from [kaldi models](http://kaldi-asr.org/models.html). For this example, I'm using the [ASpIRE chain model](http://kaldi-asr.org/models/m1), version with the precompiled HCLG
   * Untar it: `tar xvf 0001_aspire_chain_model_with_hclg.tar.bz2`
   * To this recipe, copy `cmd.sh` and `path.sh` if you haven't done so
