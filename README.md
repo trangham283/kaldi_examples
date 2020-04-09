@@ -44,5 +44,5 @@ Steps:
     ln -s $KALDI_ROOT/egs/aspire/s5/local .
     ```
   * Most instructions and comments are in `decode_audio.sh`
-   * Steps 1 and 2 can be done first and then reused (model preparation, graph compilation)
-   * Steps 3 and 4 can be run after creating `wav.scp` and `utt2spk` files in `my_data` folder. An example of creating those is in `my_data`
+    * Steps 1 and 2 can be done first and then reused (model preparation, graph compilation)
+    * Steps 3 and 4 can be run after creating `wav.scp` and `utt2spk` files in `my_data` folder. An example of creating those is in `my_data`
