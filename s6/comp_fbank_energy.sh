@@ -32,10 +32,10 @@ sph2pipe=$HOME/kaldi/tools/sph2pipe_v2.5/sph2pipe
 awk -v sph2pipe=$sph2pipe '{
   printf("%s-A %s -f wav -p -c 1 %s |\n", $1, sph2pipe, $2); 
   printf("%s-B %s -f wav -p -c 2 %s |\n", $1, sph2pipe, $2);
-}' < sph.scp | sort > wav.scp || exit 1;
+}' < sph.scp | sort > wav_feat.scp || exit 1;
 #side A - channel 1, side B - channel 2
 
-awk '{print $1}' wav.scp \
+awk '{print $1}' wav_feat.scp \
   | perl -ane '$_ =~ m:^(\S+)-([AB])$: || die "bad label $_";
                print "$1-$2 $1 $2\n"; ' \
   > reco2file_and_channel || exit 1;
@@ -52,8 +52,8 @@ if [ -f $maindir/feats.scp ]; then
     mv $maindir/feats.scp $maindir/.backup
 fi
 
-cp wav.scp $maindir/
-scp=$maindir/wav.scp
+cp wav_feat.scp $maindir/
+scp=$maindir/wav_feat.scp
 required="$scp $fbank_config"
 
 for f in $required; do
