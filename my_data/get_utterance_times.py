@@ -11,6 +11,8 @@ sw_dir = '/g/ssli/data/CTS-English/swbd_align/'
 sph_dir = '/g/ssli/data/swbdI/dist/swb1/'
 wav_dir = '/s0/ttmt001/swbd_wav/'
 dur_file = 'avg_word_stats.json'
+threshold = 0.05 # ensuring kaldi can extract frames
+
 with open(dur_file) as fin:
     avg_durs = json.load(fin)
 global_mean = np.mean([x['mean'] for x in avg_durs.values() if x['count']>20])
@@ -56,6 +58,8 @@ def cleanup_times(tokens, start_times, end_times):
     utt_end = max(etimes)
     if utt_start >= utt_end:
         utt_end = utt_start + approx_dur
+    if utt_end - utt_start < threshold:
+        utt_end = utt_start + threshold
     return utt_start, utt_end
     
 # NaN cases are usually for contractions
@@ -153,6 +157,7 @@ def get_end_time(times):
 def write_cmd_trim(task, split, cmd):
     out_dir = '/s0/ttmt001/utterances/' + task + '/' + split + '/'
     err = open(split + '_err_sents.txt', 'w')
+    checks = []
 
     if not os.path.exists(out_dir):
         os.makedirs(out_dir, exist_ok=True)
@@ -195,14 +200,22 @@ def write_cmd_trim(task, split, cmd):
                     sent_id = row.sent_id.replace('~', '_{}_'.format(speaker))
                 if start_time < 0 or end_time < 0 or start_time >= end_time:
                     err.write(sent_id + "\n")
-                    print(i, sent_id, start_time, end_time, row.sentence)
+                    print(i, sent_id, start_time, end_time)
                     continue
+                utt_dur = end_time - start_time
+                if utt_dur < threshold:
+                    end_time = start_time + threshold
+                    utt_dur = end_time - start_time
+                checks.append(utt_dur)
                 wav_out = out_dir + sent_id + '.wav'
+                #fout.write('''echo "{}"\n'''.format(wav_out))
                 item = "sox {} {} trim {} ={}\n".format(wav_in, wav_out, start_time, end_time)
                 fout.write(item)
 
     fout.close()
     err.close()
+    print("Stats on utterance durations:")
+    print(min(checks), max(checks), np.mean(checks))
     return
 
 def write_cmd_split(task, split, cmd):

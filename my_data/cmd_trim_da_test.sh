@@ -1054,7 +1054,7 @@ sox /s0/ttmt001/swbd_wav/sw03942_B.wav /s0/ttmt001/utterances/da/test/3942_B_011
 sox /s0/ttmt001/swbd_wav/sw03942_B.wav /s0/ttmt001/utterances/da/test/3942_B_0119.wav trim 281.969375 =282.2325
 sox /s0/ttmt001/swbd_wav/sw03942_B.wav /s0/ttmt001/utterances/da/test/3942_B_0121.wav trim 281.969375 =288.803375
 sox /s0/ttmt001/swbd_wav/sw03942_B.wav /s0/ttmt001/utterances/da/test/3942_B_0124.wav trim 294.571375 =294.923
-sox /s0/ttmt001/swbd_wav/sw03942_B.wav /s0/ttmt001/utterances/da/test/3942_B_0126.wav trim 298.529625 =298.560875
+sox /s0/ttmt001/swbd_wav/sw03942_B.wav /s0/ttmt001/utterances/da/test/3942_B_0126.wav trim 298.529625 =298.579625
 sox /s0/ttmt001/swbd_wav/sw02151_A.wav /s0/ttmt001/utterances/da/test/2151_A_0001.wav trim 1.703 =2.240125
 sox /s0/ttmt001/swbd_wav/sw02151_A.wav /s0/ttmt001/utterances/da/test/2151_A_0004.wav trim 9.717125 =11.580125
 sox /s0/ttmt001/swbd_wav/sw02151_A.wav /s0/ttmt001/utterances/da/test/2151_A_0005.wav trim 11.580125 =17.740125
@@ -2771,7 +2771,7 @@ sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_035
 sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0356.wav trim 558.30825 =559.1965
 sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0358.wav trim 560.671625 =561.463125
 sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0361.wav trim 561.463125 =565.911125
-sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0362.wav trim 565.911125 =565.941125
+sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0362.wav trim 565.911125 =565.9611249999999
 sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0363.wav trim 565.941125 =566.531125
 sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0365.wav trim 566.531125 =570.051125
 sox /s0/ttmt001/swbd_wav/sw02131_B.wav /s0/ttmt001/utterances/da/test/2131_B_0366.wav trim 570.051125 =572.09675
@@ -3607,7 +3607,7 @@ sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_018
 sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0192.wav trim 236.591625 =240.473125
 sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0193.wav trim 240.473125 =240.943125
 sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0195.wav trim 243.824 =246.234
-sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0196.wav trim 246.234 =246.234
+sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0196.wav trim 246.234 =246.322375
 sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0199.wav trim 249.12400000000002 =249.554
 sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0200.wav trim 249.554 =249.84400000000002
 sox /s0/ttmt001/swbd_wav/sw03994_B.wav /s0/ttmt001/utterances/da/test/3994_B_0202.wav trim 250.514 =252.00400000000002
