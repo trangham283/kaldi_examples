@@ -43,11 +43,11 @@ $KALDI_ROOT/tools/openfst/bin/fstconvert $graph_dir/HCLG_bak.fst \
 post_dec=10.0
 datadir=my_data/da/dev
 steps/online/nnet3/decode.sh --nj 2 --acwt 1.0 --post-decode-acwt ${post_dec} \
-    $graph_dir $datadir $outdir/out
+    $graph_dir $datadir $outdir/out_da_dev
 
 # STEP 4
 # Get time alignments
 lang_dir=$graph_dir
-decode_dir=$outdir/out
+decode_dir=$outdir/out_da_dev
 ./get_ctm_all.sh $datadir $lang_dir $decode_dir
 
