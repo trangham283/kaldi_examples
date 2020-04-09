@@ -11,12 +11,13 @@
 # begin configuration section.
 cmd=run.pl
 stage=0
-frame_shift=0.03 # Frame shift of the chain models
+frame_shift=0.03 # frame shift for chain models
+# only use weight = 10 for LM, based on get_ctm_fast.sh
 min_lmwt=10
 max_lmwt=10
-use_segments=false # if we have a segments file, use it to convert
+use_segments=true # if we have a segments file, use it to convert
                   # the segments to be relative to the original files.
-print_silence=true
+print_silence=false
 #end configuration section.
 
 echo "$0 $@"  # Print the command line for logging
@@ -24,7 +25,7 @@ echo "$0 $@"  # Print the command line for logging
 [ -f ./path.sh ] && . ./path.sh
 . parse_options.sh || exit 1;
 
-if [ $# -ne 4 ]; then
+if [ $# -ne 3 ]; then
   echo "Usage: $0 [options] <data-dir> <lang-dir|graph-dir> <decode-dir>"
   echo " Options:"
   echo "    --cmd (run.pl|queue.pl...)      # specify how to run the sub-processes."
@@ -45,17 +46,20 @@ fi
 data=$1
 lang=$2 # Note: may be graph directory not lang directory, but has the necessary stuff copied.
 dir=$3
-out=$4
 
-model=$dir/final.mdl 
+model=$lang/../final.mdl # assume model one level up from decoding dir.
+
 
 for f in $lang/words.txt $model $dir/lat.1.gz; do
   [ ! -f $f ] && echo "$0: expecting file $f to exist" && exit 1;
 done
 
-name=`basename $data`; # e.g. eval2000
+name1=`basename $data`; # e.g. eval2000
+name2=`dirname $data`
+name3=`basename $name2`
+name=${name3}_${name1}
 
-mkdir -p $out/scoring/log
+mkdir -p $dir/scoring/log
 
 if [ $stage -le 0 ]; then
   if [ -f $data/segments ] && $use_segments; then
@@ -66,24 +70,25 @@ if [ $stage -le 0 ]; then
     filter_cmd=cat
   fi
 
-  lats=$dir/lat.1.gz
+  nj=$(cat $dir/num_jobs)
+  lats=$(for n in $(seq $nj); do echo -n "$dir/lat.$n.gz "; done)
   if [ -f $lang/phones/word_boundary.int ]; then
-    $cmd LMWT=$min_lmwt:$max_lmwt $out/scoring/log/get_ctm.LMWT.log \
-      set -o pipefail '&&' mkdir -p $out/score_LMWT/ '&&' \
+    $cmd LMWT=$min_lmwt:$max_lmwt $dir/scoring/log/get_ctm.LMWT.log \
+      set -o pipefail '&&' mkdir -p $dir/score_LMWT/ '&&' \
       lattice-1best --lm-scale=LMWT "ark:gunzip -c $lats|" ark:- \| \
       lattice-align-words $lang/phones/word_boundary.int $model ark:- ark:- \| \
       nbest-to-ctm --frame-shift=$frame_shift --print-silence=$print_silence ark:- - \| \
       utils/int2sym.pl -f 5 $lang/words.txt \| \
-      $filter_cmd '>' $out/score_LMWT/$name.ctm || exit 1;
+      $filter_cmd '>' $dir/score_LMWT/$name.ctm || exit 1;
   elif [ -f $lang/phones/align_lexicon.int ]; then
-    $cmd LMWT=$min_lmwt:$max_lmwt $out/scoring/log/get_ctm.LMWT.log \
-      set -o pipefail '&&' mkdir -p $out/score_LMWT/ '&&' \
+    $cmd LMWT=$min_lmwt:$max_lmwt $dir/scoring/log/get_ctm.LMWT.log \
+      set -o pipefail '&&' mkdir -p $dir/score_LMWT/ '&&' \
       lattice-1best --lm-scale=LMWT "ark:gunzip -c $lats|" ark:- \| \
       lattice-align-words-lexicon $lang/phones/align_lexicon.int $model ark:- ark:- \| \
       lattice-1best ark:- ark:- \| \
       nbest-to-ctm --frame-shift=$frame_shift --print-silence=$print_silence ark:- - \| \
       utils/int2sym.pl -f 5 $lang/words.txt \| \
-      $filter_cmd '>' $out/score_LMWT/$name.ctm || exit 1;
+      $filter_cmd '>' $dir/score_LMWT/$name.ctm || exit 1;
   else
     echo "$0: neither $lang/phones/word_boundary.int nor $lang/phones/align_lexicon.int exists: cannot align."
     exit 1;

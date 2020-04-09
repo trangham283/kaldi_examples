@@ -37,9 +37,12 @@ Steps:
   * To this recipe, copy `cmd.sh` and `path.sh` if you haven't done so
   * Link common modules we'll be using (or copy all these here if you'll be editing the scripts in these directory):
     ```
+    export KALDI_ROOT=/homes/ttmt001/kaldi
     ln -s $KALDI_ROOT/egs/aspire/s5/steps .
     ln -s $KALDI_ROOT/egs/aspire/s5/utils .
     ln -s $KALDI_ROOT/egs/aspire/s5/conf .
     ln -s $KALDI_ROOT/egs/aspire/s5/local .
     ```
-  * 
+  * Most instructions and comments are in `decode_audio.sh`
+        * Steps 1 and 2 can be done first and then reused (model preparation, graph compilation)
+        * Steps 3 and 4 can be run after creating `wav.scp` and `utt2spk` files in `my_data` folder. An example of creating those is in `my_data`

@@ -1,41 +1,53 @@
-post_dec=1.0
-data_dir=sample_data
-decode_dir=exp/tdnn_7b_chain_online
-lattice_dir=exp/tdnn_7b_chain_online
-lang_dir=exp/tdnn_7b_chain_online/graph_pp
-graph_dir=exp/tdnn_7b_chain_online/graph_pp
-out_dir=sample_data/out
-decoded_text=decoded.1.txt
+#!/bin/bash
+export KALDI_ROOT=/homes/ttmt001/kaldi
+export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PWD:$PATH
+[ ! -f $KALDI_ROOT/tools/config/common_path.sh ] && echo >&2 "The standard file $KALDI_ROOT/tools/config/common_path.sh is not present -> Exit!" && exit 1
+. $KALDI_ROOT/tools/config/common_path.sh
+export PATH=$KALDI_ROOT/tools/sctk/bin:$PATH
+export LC_ALL=C
 
+# STEP 1
+# This stuff is available after untarring the downloaded model
+lang_dir=data/lang_chain
+extractor_dir=exp/nnet3/extractor
+nnet_dir=exp/chain/tdnn_7b
+outdir=decode_out
+
+# Prepare decoding 
 steps/online/nnet3/prepare_online_decoding.sh \
     --mfcc-config conf/mfcc_hires.conf \
-    data/lang_chain exp/nnet3/extractor \
-    exp/chain/tdnn_7b exp/tdnn_7b_chain_online
+    $lang_dir $extractor_dir $nnet_dir $outdir
 
+lang_decode_dir=data/lang_pp_test 
+model_dir=$outdir
+graph_dir=$outdir/graph_pp
+
+# STEP 2
+# Compile graph
+# self-loop-scale was set to 1.0 based on:
+# https://github.com/kaldi-asr/kaldi/issues/1668
 utils/mkgraph.sh --self-loop-scale 1.0 \
-    data/lang_pp_test exp/tdnn_7b_chain_online \
-    exp/tdnn_7b_chain_online/graph_pp
+    $lang_decode_dir $model_dir $graph_dir
 
-# Here you might need to do fstconvert for graph:
+# Here you might need to do fstconvert for graph, if there's error about 
+# vector type in fst
 # make a backup first:
 cp $graph_dir/HCLG.fst $graph_dir/HCLG_bak.fst
 $KALDI_ROOT/tools/openfst/bin/fstconvert $graph_dir/HCLG_bak.fst \
     $graph_dir/HCLG.fst
 
-# decode to lattice
-steps/online/nnet3/decode.sh --nj 1 --acwt 1.0 \
-    --post-decode-acwt ${post_dec} \
-    exp/tdnn_7b_chain_online/graph_pp \
-    example exp/tdnn_7b_chain_online/out
+# STEP 3
+# Do decoding
+# Note: decode.sh was changed from the original one, where I specify saving 
+# lat.*.gz lattices
+post_dec=10.0
+datadir=my_data/da/dev
+steps/online/nnet3/decode.sh --nj 2 --acwt 1.0 --post-decode-acwt ${post_dec} \
+    $graph_dir $datadir $outdir/out
 
-# choose best path
-lattice-best-path --acoustic-scale=0.1 "ark,t:${latd}/output.1.lat" "ark,t:${latd}/output.1.txt"
-
-# convert numbers to actual words
-utils/int2sym.pl -f 2- ${graph_dir}/words.txt < ${latd}/output.1.txt > $decoded_text
-
-# get time alignments
-lattice-best-path --acoustic-scale=0.1 "ark:${latd}/output.1.lat" "ark,t:|int2sym.pl -f 2- ${graph_dir}/words.txt > ${decoded_text}" ark:1.ali
-
-./get_ctm_local.sh $data_dir $lang_dir $decode_dir $out_dir
+# STEP 4
+# Get time alignments
+lang_dir=$graph_dir
+decode_dir=$outdir/out
+./get_ctm_all.sh $datadir $lang_dir $decode_dir
 
