@@ -59,7 +59,7 @@ do
   lattice-align-words $lang/phones/word_boundary.int $model ark:- ark:- | \
   nbest-to-ctm --frame-shift=$frame_shift \
     --print-silence=$print_silence ark:- - | \
-  utils/int2sym.pl -f 5 $lang/words.txt >>  $dir/score_nbest/$name.ctm 
+  utils/int2sym.pl -f 5 $lang/words.txt > $dir/score_nbest/${name}-${n}.ctm 
 done
 
 
