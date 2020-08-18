@@ -11,6 +11,7 @@
 use_segments=true # if we have a segments file, use it to convert
                   # the segments to be relative to the original files.
 print_silence=false
+frame_shift=0.03 # frame shift for chain models
 
 echo "$0 $@"  # Print the command line for logging
 

@@ -1,0 +1,23 @@
+lrwxrwxrwx. 1 ttmt001 mou 61 Feb  8  2017 libkaldi-base.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/base/libkaldi-base.so
+lrwxrwxrwx. 1 ttmt001 mou 63 Feb  8  2017 libkaldi-chain.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/chain/libkaldi-chain.so
+lrwxrwxrwx. 1 ttmt001 mou 73 Feb  8  2017 libkaldi-cudamatrix.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/cudamatrix/libkaldi-cudamatrix.so
+lrwxrwxrwx. 1 ttmt001 mou 67 Feb  8  2017 libkaldi-decoder.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/decoder/libkaldi-decoder.so
+lrwxrwxrwx. 1 ttmt001 mou 61 Feb  8  2017 libkaldi-feat.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/feat/libkaldi-feat.so
+lrwxrwxrwx. 1 ttmt001 mou 65 Feb  8  2017 libkaldi-fstext.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/fstext/libkaldi-fstext.so
+lrwxrwxrwx. 1 ttmt001 mou 59 Feb  8  2017 libkaldi-gmm.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/gmm/libkaldi-gmm.so
+lrwxrwxrwx. 1 ttmt001 mou 59 Feb  8  2017 libkaldi-hmm.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/hmm/libkaldi-hmm.so
+lrwxrwxrwx. 1 ttmt001 mou 67 Feb  8  2017 libkaldi-ivector.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/ivector/libkaldi-ivector.so
+lrwxrwxrwx. 1 ttmt001 mou 59 Feb  8  2017 libkaldi-kws.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/kws/libkaldi-kws.so
+lrwxrwxrwx. 1 ttmt001 mou 59 Feb  8  2017 libkaldi-lat.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/lat/libkaldi-lat.so
+lrwxrwxrwx. 1 ttmt001 mou 57 Feb  8  2017 libkaldi-lm.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/lm/libkaldi-lm.so
+lrwxrwxrwx. 1 ttmt001 mou 65 Feb  8  2017 libkaldi-matrix.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/matrix/libkaldi-matrix.so
+lrwxrwxrwx. 1 ttmt001 mou 63 Feb  8  2017 libkaldi-nnet2.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/nnet2/libkaldi-nnet2.so
+lrwxrwxrwx. 1 ttmt001 mou 63 Feb  8  2017 libkaldi-nnet3.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/nnet3/libkaldi-nnet3.so
+lrwxrwxrwx. 1 ttmt001 mou 61 Feb  8  2017 libkaldi-nnet.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/nnet/libkaldi-nnet.so
+lrwxrwxrwx. 1 ttmt001 mou 67 Feb  8  2017 libkaldi-online2.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/online2/libkaldi-online2.so
+lrwxrwxrwx. 1 ttmt001 mou 63 Feb  8  2017 libkaldi-sgmm2.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/sgmm2/libkaldi-sgmm2.so
+lrwxrwxrwx. 1 ttmt001 mou 65 Feb  8  2017 libkaldi-thread.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/thread/libkaldi-thread.so
+lrwxrwxrwx. 1 ttmt001 mou 71 Feb  8  2017 libkaldi-transform.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/transform/libkaldi-transform.so
+lrwxrwxrwx. 1 ttmt001 mou 61 Feb  8  2017 libkaldi-tree.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/tree/libkaldi-tree.so
+lrwxrwxrwx. 1 ttmt001 mou 61 Feb  8  2017 libkaldi-util.so -> /atm/chicken/vol/home/ttmt001/kaldi/src/util/libkaldi-util.so
+
