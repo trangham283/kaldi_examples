@@ -1,0 +1,65 @@
+# Steps:
+# Compute average duration stats
+- in get_utterance_times.py, function write_dur_stats()
+
+# Write commands to split channels in audio files
+python get_utterance_times.py --split {dev,test} --step split --task {da,parse}
+
+# Write commands to trim on uttereance level
+python get_utterance_times.py --split {dev,test} --step trim --task {da,parse}
+
+# Run the corresponding commands cmd* 
+
+# Run kaldi decoding scripts:
+./decode_audio_$task_$split
+
+NOTE: 3942_B_0126 is too short, kaldi could not extract acoustic frames from it, so skip
+
+
+# run acronym map:
+./run_acronym_map.sh 
+
+# Combine info from asr outputs:
+python parse_asr_output.py --split {dev,test} --task {pa,da}
+
+# Prepare sentences for tagging and then parsing
+cut -f6 test_asr_pa_nbest.tsv > test_asr_sents.txt
+cut -f9 test_asr_pa_nbest.tsv > test_asr_mrg.txt 
+cut -f1 test_asr_pa_nbest.tsv > test_asr_sent_ids.txt 
+
+cut -f6 dev_asr_pa_nbest.tsv > dev_asr_sents.txt
+cut -f9 dev_asr_pa_nbest.tsv > dev_asr_mrg.txt 
+cut -f1 dev_asr_pa_nbest.tsv > dev_asr_sent_ids.txt 
+
+#NOTE:
+"y'all" doesn't get tagged correctly if I pre-tokenize; ended manually put back to "y'all" before running the tagger.
+
+# then remove first header row
+
+./run_tagger.sh
+
+python process_tags.py --out_name asr_output/nbest/test_asr_sent_with_tags.txt --tsv_file asr_output/nbest/test_asr_pa_nbest.tsv --tag_file asr_output/nbest/test_asr_sents.tags
+
+# then fix tags associated with "i" in dev_asr_sent_with_tags.txt
+in vim:
+%s/i_FW/i_PRP/g
+%s/i_LS/i_PRP/g
+%s/i_PRP b_NN/i_NN b_NN/g
+%s/i_PRP t_NN/i_NN t_NN/g
+
+
+# in python2 environment (bc of pickle module mostly)
+python get_speech_features.py --split {dev, test}
+
+# then, in ../self-attentive-parser:
+./run_parse_asr.sh
+
+# then add "TOP" nodes
+in vim, "*.parse":
+%s/$/)/g
+%s/^/(S /g
+
+# run sparseval:
+./run_sparseval.sh
+
+
